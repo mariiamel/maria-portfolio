@@ -40,7 +40,6 @@ nav ul li {
     background-size: cover;
     background-position: center;
     height: 85vh;
-
 }
 
 .main-info{
@@ -52,13 +51,71 @@ nav ul li {
 }
 
 .main-info h1{
-    margin-top: 90px;
-    margin-bottom: 25px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 .tags{
     margin: 0px 10px 0px 10px;
 }
+
 .typical-style{
     font-size: xx-large;
 }
+
+@media(max-width: 768px){
+    .main-info{
+        font-size: 1.5rem !important;
+    }
+}
+
+.about_me {
+    text-align: center;
+    margin: 20px;
+}
+
+.my_pic{
+    height: 280px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 25px 20px 20px 35px;
+}
+
+.about-container{
+    position: relative;
+
+}
+.bout-text{
+    width: 450px;
+    border: 1px solid black;
+}
+
+.social {
+    height: 150px;
+    width: 50px;
+    background: #FAEBD7;
+    border-radius: 35px;
+    margin: 20vh auto;
+    position: fixed;
+    top: 40%;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    font-size: 1.25em;
+    box-shadow: 2px 2px 5px grey;
+    position: fixed;
+}
+
+.icon-social {
+    transform: scale(1.2);
+    text-decoration: none;
+    color: black;
+}
+
+.social div {
+    margin: 0 auto;
+}
+
