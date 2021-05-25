@@ -1,9 +1,8 @@
-const Works = () => {
+export default function Works () {
     return(
         <div>
-            <h1>Works</h1>
+            <h1 className='works'>Works</h1>
         </div>
     )
 }
 
-export default Works

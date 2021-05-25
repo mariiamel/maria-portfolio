@@ -18,6 +18,7 @@ nav a.nav-link {
 
 nav ul li {
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .navbar-nav > li > a {
@@ -73,6 +74,9 @@ nav ul li {
     text-align: center;
     margin: 20px;
 }
+/* .about {
+    background-color: #FAEBD7;
+} */
 
 .my_pic{
     height: 280px;
@@ -83,12 +87,15 @@ nav ul li {
 }
 
 .about-container{
-    position: relative;
-
+    display: inline-block;
 }
-.bout-text{
+
+.about-text{
+    text-align: center;
     width: 450px;
     border: 1px solid black;
+    padding: 20px;
+    margin-left: 30px;
 }
 
 .social {
@@ -97,7 +104,9 @@ nav ul li {
     background: #FAEBD7;
     border-radius: 35px;
     margin: 20vh auto;
-    position: fixed;
+    position: sticky;
+    /* top: 0; */
+    /* position: fixed; */
     top: 40%;
     left: 3%;
     display: flex;
@@ -106,16 +115,39 @@ nav ul li {
     align-content: space-between;
     font-size: 1.25em;
     box-shadow: 2px 2px 5px grey;
-    position: fixed;
-}
-
-.icon-social {
-    transform: scale(1.2);
-    text-decoration: none;
-    color: black;
 }
 
 .social div {
     margin: 0 auto;
 }
 
+.icon-social {
+    transform: scale(1.1);
+    text-decoration: none;
+    color: black;
+} 
+
+.skill-box, .works, .contact-me {
+    text-align: center;
+}
+
+.contact a{
+    padding: 20px;
+}
+
+.about_div{
+    display: flex;
+    justify-content: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skills img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}

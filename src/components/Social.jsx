@@ -7,10 +7,10 @@ import pdf from '../assets/maria_melnikova_resume.pdf'
 const Social = () => {
     return (
         <div className="social">
-            <div><a href="https://www.linkedin.com/in/mariia-mel/" target="_blank"><FontAwesomeIcon className="icon-social" icon={faLinkedin} /></a></div>
-            <div><a href="https://github.com/mariiamel" target="_blank"><FontAwesomeIcon className="icon-social" icon={faGithub} /></a></div>
+            <div><a href="https://www.linkedin.com/in/mariia-mel/" target="_blank" rel='noreferrer noopener'><FontAwesomeIcon className="icon-social" icon={faLinkedin} /></a></div>
+            <div><a href="https://github.com/mariiamel" target="_blank" rel='noreferrer noopener'><FontAwesomeIcon className="icon-social" icon={faGithub} /></a></div>
             <div><a href="mailto: mariiamelnikova96@gmail.com"><FontAwesomeIcon className="icon-social" icon={faEnvelope} /></a></div>
-            <div><a href={pdf} target="_blank" className="cv icon-social">CV</a></div>
+            <div><a href={pdf} target="_blank" className="cv icon-social" rel='noreferrer noopener'>CV</a></div>
         </div>
     )
 }
