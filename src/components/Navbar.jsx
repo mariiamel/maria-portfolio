@@ -17,6 +17,9 @@ export default function Navbar () {
                         <Link className="nav-link" to="about" smooth={true} duration={1000}>about</Link>
                     </li>
                     <li className="nav-item">
+                        <Link className="nav-link" to="skills" smooth={true} duration={1000}>skills</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link className="nav-link" to="works" smooth={true} duration={1000}>works</Link>
                     </li>
                     <li className="nav-item">
