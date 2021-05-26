@@ -76,7 +76,7 @@ nav ul li {
     flex-direction: row;
     justify-content: center;
     align-content: space-between;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .my_pic{
@@ -124,11 +124,11 @@ nav ul li {
     margin: 0 auto;
 }
 
-.icon-social {
+.icon-social, .icon-social-contact {
     transform: scale(1.1);
     color: black;
 } 
-.icon-social:hover {
+.icon-social:hover, .icon-social-contact:hover {
     transform: scale(1.3);
     text-decoration: none;
     color: darkblue;
@@ -136,6 +136,7 @@ nav ul li {
 
 .skill-box, .about_me, .works, .contact-me {
     text-align: center;
+    color: black;
     padding: 30px;
 }
 
@@ -167,6 +168,34 @@ nav ul li {
     color: black;
     padding-bottom: 20px;
 }
-.contact a{
+
+.contact, .icon-social-contact{
     padding: 20px;
+    text-align: center;
+    flex-direction: row;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.contact-component{
+    background: #FAEBD7;
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    height: 50vh;
+}
+p .icon-social-contact{
+    border: 1px solid black;
+    width: 140px;
+    height: 45px;
+    margin: auto;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 5px;
+    padding-top: 8px;
+}
+p .icon-social-contact:hover{
+    transform: scale(1.2);
+    color: darkblue;
 }
