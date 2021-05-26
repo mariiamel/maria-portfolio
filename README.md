@@ -7,9 +7,9 @@
 [Portfolio]()
 
 # Links to my previous projects
-- Project: Trip Tracker
+- Trip Tracker
 [Live site](https://triptracker.netlify.app/)
-- Project: CoffeeMe
+- CoffeeMe
 [Live site](https://second-project-coffeeme.herokuapp.com/)
-- Project: Guess Where Game
+- Guess Where Game
 [Live site](https://mariiamel.github.io/)
