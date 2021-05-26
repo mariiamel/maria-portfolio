@@ -4,7 +4,7 @@
 - My LinkedIn profile 😊
 [LinkedIn](https://www.linkedin.com/in/mariia-mel/)
 - Link to the LIVE portfolio website: 
-[Portfolio]()
+[Portfolio](http://mariiamel-portfolio.github.io/)
 
 # Links to my previous projects
 - Trip Tracker
