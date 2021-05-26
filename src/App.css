@@ -177,6 +177,7 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-content: space-between;
+    transform: scale(1.1);
 }
 .contact-component{
     background: #FAEBD7;
@@ -194,8 +195,31 @@ p .icon-social-contact{
     font-weight: bolder;
     padding: 5px;
     padding-top: 8px;
+    box-shadow: 1px 1px 4px grey;
 }
 p .icon-social-contact:hover{
     transform: scale(1.2);
     color: darkblue;
 }
+.works-container div{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px grey;
+    background-color: #FAEBD7;
+}
+.single-work button{
+    width: 100px;
+    height: 30px;
+}
+
+/* .work-left{
+    float: left;
+}
+.work-right{
+    float: right;
+} */
