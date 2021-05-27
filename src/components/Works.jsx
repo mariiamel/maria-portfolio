@@ -15,25 +15,26 @@ export default function Works () {
 
                 <div className='single-work work-left'>
                     <h1>Trip Tracker</h1>
-                    <img />
-                    <p>MERN Full-Stack Web Application allowing users to stay organized while traveling.
+                    {/* <img /> */}
+                    <p>
+                        MERN Full-Stack Web Application allowing users to stay organized while traveling.
                         <p>Tech: React, Javascript, Node.js, Express.js, Mongoose, MongoDB, Bcrypt, Axios, JWT, HTML and CSS
                         Implemented MongoDB database with Mongoose ODM and Express.js on the Back end and React on the Front end
                         Dynamically integrated asynchronous Axios API calls with minimization efforts to reduce latency and increase app’s speed and overall smoothness
                         Built JSON Web Tokens for users authentication</p>
                     </p>
                     <button>
-                        <a href='' target="_blank" rel='noreferrer noopener'>view LIVE</a>
+                        {/* <a href='' target="_blank" rel='noreferrer noopener'>view LIVE</a> */}
                     </button>
                     
                     <button>
-                        <a href="" target="_blank" rel='noreferrer noopener'>view on github</a>
+                        {/* <a href="" target="_blank" rel='noreferrer noopener'>view on github</a> */}
                     </button>
                 </div>
 
                 <div className='single-work work-right'>
                     <h1>CoffeeMe</h1>
-                    <img />
+                    {/* <img /> */}
                     <p>
                     Full- Stack Web Application allowing users to search for the coffeeshops and add them to favorite list.
                     <p>Tech: Javascript, EJS, Sequelize, Postgres, Express.js, Node.js, API, axios
@@ -51,7 +52,7 @@ export default function Works () {
 
                 <div className='single-work work-left'>
                     <h1>Guess Where</h1>
-                    <img />
+                    {/* <img /> */}
                     <p>
                     Front-End Web Game.
                     Challenge yourself to see if you can guess where the item is hidden
@@ -63,7 +64,7 @@ export default function Works () {
                     </button>
                     
                     <button>
-                        <a href="" target="_blank" rel='noreferrer noopener'>view on github</a>
+                        {/* <a href="" target="_blank" rel='noreferrer noopener'>view on github</a> */}
                     </button>
                 </div>
             </div>

@@ -76,16 +76,16 @@ nav ul li {
     flex-direction: row;
     justify-content: center;
     align-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .my_pic{
     height: 280px;
     width: 250px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     /* border-radius: 50%; */
     border-radius: 10%;
-    margin-right: 60px;
+    margin-right: 80px;
 }
 
 .about-text{
