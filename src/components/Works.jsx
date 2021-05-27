@@ -41,6 +41,7 @@ export default function Works () {
                     Coded a User login system, storing encrypted information in cookies and SQL, to allow a specific user experience while maintaining user privacy
                     Exported data from APIs to SQL database utilizing Javascript and EJS to render searched coffeeshops where readability and organization are maximized Implemented the entire site through sequelize, following full RESTful routing, giving the user access to full CRUD functionality on the site</p>
                     </p>
+                    <p>Login: username: test, email: test@gmail.com, password:test</p>
                     <button>
                         <a href='https://second-project-coffeeme.herokuapp.com/' target="_blank" rel='noreferrer noopener'>view LIVE</a>
                     </button>
