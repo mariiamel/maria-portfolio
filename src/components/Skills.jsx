@@ -16,6 +16,7 @@ import typescript from '../assets/typescript.png'
 export default function Skills () {
     return(
         <div className='skill-box'>
+            <div className='all-skills'>
                 <h1 className='skills-h1'>Skills</h1>
                 <div className='skills'>
                     <div><img src={js} alt="js"/><p className="lang_text">JavaScript</p></div>
@@ -34,6 +35,7 @@ export default function Skills () {
                     <div><img src={postgresql} alt="postgresql"/><p className="lang_text">Postgresql</p></div>
                     <div><img src={api} alt="api"/><p className="lang_text">Api</p></div>
                     <div><img src={git} alt="git"/><p className="lang_text">Git</p></div>
+                </div>
                 </div>
             </div>
     )

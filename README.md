@@ -1,4 +1,5 @@
 # Maria Melnikova -Software Developer-
+My personal portfolio website to introduce myself, showcase my skills, recent projects and contact information.
 
 - I am looking for a new opportunity!☄️
 - My LinkedIn profile 😊
