@@ -209,14 +209,17 @@ p .icon-social-contact:hover{
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
-    border: 1px solid black;
-    box-shadow: 1px 1px 4px grey;
-    background-color: #FAEBD7;
+    /* border: 1px solid black;
+    box-shadow: 1px 1px 4px grey; */
+    background: #FAEBD7;
     opacity: 80%;
 }
 .single-work button{
     width: 100px;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 .works{
@@ -230,4 +233,19 @@ p .icon-social-contact:hover{
 }
 .work-right{
     text-align: right;
+}
+.guess, .trip {
+    width: 360px;
+    height: 250px;
+    float: left;
+    margin: 10px;
+}
+.project{
+    display: inline-block;
+}
+.coffeee{
+    width: 360px;
+    height: 250px;
+    float: right;
+    margin: 10px;
 }
