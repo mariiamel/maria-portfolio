@@ -220,6 +220,7 @@ p .icon-social-contact:hover{
     display: flex;
     justify-content: center;
     margin: 10px;
+    margin-left: auto;
 }
 
 .works{
@@ -239,6 +240,7 @@ p .icon-social-contact:hover{
     height: 250px;
     float: left;
     margin: 10px;
+    margin-right: 30px;
 }
 .project{
     display: inline-block;
@@ -248,4 +250,23 @@ p .icon-social-contact:hover{
     height: 250px;
     float: right;
     margin: 10px;
+    margin-left: 30px;
+}
+.project p {
+    font-size: medium;
+    margin: 11px;
+}
+.work-left h1{
+    margin-left: 20px;
+} 
+
+.work-right h1 {
+    margin-right: 20px;
+}
+
+.btn-right{
+    float: right;
+}
+.btn-left{
+    float: left;
 }

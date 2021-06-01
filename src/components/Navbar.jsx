@@ -20,7 +20,7 @@ export default function Navbar () {
                         <Link className="nav-link" to="skills" smooth={true} duration={1000}>skills</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="works" smooth={true} duration={1000}>works</Link>
+                        <Link className="nav-link" to="works" smooth={true} duration={1000}>projects</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="contact" smooth={true} duration={1000}>contact</Link>
