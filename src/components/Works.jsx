@@ -23,10 +23,10 @@ export default function Works () {
                         <p><b>Tech:</b> React, Javascript, Node.js, Express.js, Mongoose, MongoDB, Bcrypt, Axios, JWT, HTML and CSS</p>
                         <p><b>Login:</b> email - user@new.com, password - usernew</p>
 
-                            <a href='https://triptracker.netlify.app/' target="_blank" rel='noreferrer noopener' className='btn-left'>Demo</a>
-                            <a href="https://github.com/mariiamel/project3_client" target="_blank" rel='noreferrer noopener' className='btn-left'>
-                                <FontAwesomeIcon className="icon-social" icon={faGithub} />
-                            </a>
+                        <a href='https://triptracker.netlify.app/' target="_blank" rel='noreferrer noopener' className='btn-left'>Demo</a>
+                        <a href="https://github.com/mariiamel/project3_client" target="_blank" rel='noreferrer noopener' className='btn-left'>
+                            <FontAwesomeIcon className="icon-social" icon={faGithub} />
+                        </a>
                     </span>
                 </div>
 
@@ -40,11 +40,10 @@ export default function Works () {
                         <p><b>Tech:</b> Javascript, EJS, Sequelize, Postgres, Express.js, Node.js, API, axios</p>
                         <p><b>Login:</b> username: test, email: test@gmail.com, password:test</p>
                         
-                            <a href='https://second-project-coffeeme.herokuapp.com/' target="_blank" rel='noreferrer noopener' className='btn-right'>Demo</a>
-
-                            <a href="https://github.com/mariiamel/Project_2" target="_blank" rel='noreferrer noopener' className='btn-right'>
-                                <FontAwesomeIcon className="icon-social" icon={faGithub} />
-                            </a>
+                        <a href='https://second-project-coffeeme.herokuapp.com/' target="_blank" rel='noreferrer noopener' className='btn-right'>Demo</a>
+                        <a href="https://github.com/mariiamel/Project_2" target="_blank" rel='noreferrer noopener' className='btn-right'>
+                            <FontAwesomeIcon className="icon-social" icon={faGithub} />
+                        </a>
                     </span>
                 </div>
 
@@ -59,10 +58,10 @@ export default function Works () {
                         <p>Built unique Javascript functionality to keep track of user’s level, attempts, items to guess that is based on real value</p>
                         <p><b>Tech:</b> Javascript, HTML, CSS(Flexbox) and DOM manipulation</p>
 
-                            <a href='https://mariiamel.github.io/' target="_blank" rel='noreferrer noopener' className='btn-left'>Demo</a>
-                            <a href="https://github.com/mariiamel/Guess-where-Game" target="_blank" rel='noreferrer noopener' className='btn-left'>
-                                <FontAwesomeIcon className="icon-social" icon={faGithub} />
-                            </a>
+                        <a href='https://mariiamel.github.io/' target="_blank" rel='noreferrer noopener' className='btn-left'>Demo</a>
+                        <a href="https://github.com/mariiamel/Guess-where-Game" target="_blank" rel='noreferrer noopener' className='btn-left'>
+                            <FontAwesomeIcon className="icon-social" icon={faGithub} />
+                        </a>
                     </span>
                 </div>
             </div>
