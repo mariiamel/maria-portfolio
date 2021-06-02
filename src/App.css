@@ -79,22 +79,24 @@ nav ul li {
     flex-direction: row;
     justify-content: center;
     align-content: space-between;
+    padding-top: 25px;
 }
 
 .my_pic{
-    height: 280px;
-    width: 250px;
-    border-radius: 20%;
+    height: 290px;
+    width: 265px;
+    border-radius: 50%;
     margin-right: 90px;
+    border: 10px solid #FAEBD7;
 }
 
 .about-text{
     text-align: center;
-    padding: 25px 10px 10px 20px;
+    padding: 40px 10px 10px 20px;
     width: 600px;
-    border: 1px solid black;
+    border: 1px solid #faecdb;
     border-radius: 10%;
-    box-shadow: 2px 2px 5px rgb(168, 168, 168);
+    box-shadow: 3px 3px 10px #ffc10736;
 }
 .about-text p{
     font-family: 'Roboto', sans-serif !important;
@@ -180,8 +182,8 @@ nav ul li {
     transform: scale(1.1);
 }
 .contact-component{
-    position: relative;
     background: url(./assets/mounts-bg.webp) no-repeat;
+    position: relative;
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -209,9 +211,10 @@ p .icon-social-contact:hover{
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
-    /* border: 1px solid black;
-    box-shadow: 1px 1px 4px grey; */
     background: #FAEBD7;
+    position: relative;
+    background-size: cover;
+    background-position: center;
     opacity: 80%;
 }
 .single-work button{
@@ -246,7 +249,7 @@ p .icon-social-contact:hover{
     display: inline-block;
 }
 .coffeee{
-    width: 360px;
+    width: 370px;
     height: 250px;
     float: right;
     margin: 10px;
@@ -254,7 +257,7 @@ p .icon-social-contact:hover{
 }
 .project p {
     font-size: medium;
-    margin: 11px;
+    margin: 8px;
 }
 .work-left h1{
     margin-left: 20px;
@@ -266,7 +269,11 @@ p .icon-social-contact:hover{
 
 .btn-right{
     float: right;
+    padding-right: 10px;
+    font-size: larger;
 }
 .btn-left{
     float: left;
+    padding-right: 10px;
+    font-size: larger;
 }
