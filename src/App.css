@@ -70,6 +70,25 @@ nav ul li {
         font-size: 1.5rem !important;
     }
 }
+
+/* @media(max-width: 320px){
+    .main-info{
+        font-size: 1.5rem !important;
+    }
+    .my_pic{
+        height: 240px;
+        width: 215px;
+    }
+    .about-container{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    .about-text p{
+        font-weight: lighter;
+        font-size: 1.5rem !important;
+    }
+} */
+
 .about{
     height: 80vh;
 }
