@@ -370,7 +370,7 @@ p .icon-social-contact:hover{
         padding-left: 8px;
     }
 }
-@media(max-width: 375px){
+@media(max-width: 385px){
     .header-wraper{
         height: 80vh !important;
     }
@@ -425,6 +425,75 @@ p .icon-social-contact:hover{
         float: none !important;
         margin: 0px;
         margin-right: 0px;
+    }
+    .project p {
+        text-align: initial;
+    }
+    .work-left, .work-right{
+        text-align: center;
+    }
+    .btn-left{
+        padding-left: 8px;
+    }
+    .btn-right{
+        float: left;
+        padding-left: 8px;
+    }
+}
+@media(max-width: 320px){
+    .header-wraper{
+        height: 80vh !important;
+    }
+    .social{
+        margin: 25vh auto;
+    }
+    .about_me{
+        padding-bottom: 5px !important;
+    }
+    .main-info{
+        font-size: 1.5rem !important;
+    }
+    .my_pic{
+        height: 230px !important;
+        width: 200px !important;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .about-container{
+        flex-direction: column !important;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .about-text{
+        max-width: fit-content;
+        margin: 10px;
+    }
+    .about-text p{
+        font-weight: lighter;
+        font-size: 1rem !important;
+    }
+    .skill-box{
+        margin-top: 300px !important;
+        height: 55vh;
+    }
+    .skills img{
+        width: 25px;
+        height: 25px;
+        margin: 3px;
+    }
+    .lang_text{
+        font-size: 0.8rem !important;
+        margin: 4px;
+        padding-top: 8px;
+    }
+    .skills{
+        padding-top: 15px;
+    }
+    .guess,.trip, .coffeee {
+        width: 250px;
+        height: 170px;
+        float: none !important;
+        margin: -5px;
     }
     .project p {
         text-align: initial;
