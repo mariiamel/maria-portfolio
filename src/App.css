@@ -446,6 +446,11 @@ p .icon-social-contact:hover{
     }
     .social{
         margin: 25vh auto;
+        width: 30px;
+        height: 125px;
+    }
+    .social a{
+        font-size: medium;
     }
     .about_me{
         padding-bottom: 5px !important;
