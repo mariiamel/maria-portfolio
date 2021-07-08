@@ -299,7 +299,6 @@ p .icon-social-contact:hover{
         padding-left: 8px;
     }
 }
-
 @media(max-width: 550px){
     .header-wraper{
         height: 80vh !important;
