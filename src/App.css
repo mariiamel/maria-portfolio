@@ -370,6 +370,12 @@ p .icon-social-contact:hover{
         padding-left: 8px;
     }
 }
+@media(max-width: 450px){
+    .skill-box{
+        margin-top: 240px !important;
+        height: 62vh;
+    }
+}
 @media(max-width: 385px){
     .header-wraper{
         height: 80vh !important;
@@ -403,8 +409,8 @@ p .icon-social-contact:hover{
         font-size: 1rem !important;
     }
     .skill-box{
-        margin-top: 145px !important;
-        height: 53vh;
+        margin-top: 300px !important;
+        height: 55vh;
     }
     .skills img{
         width: 35px;
