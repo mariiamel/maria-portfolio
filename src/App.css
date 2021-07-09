@@ -252,6 +252,10 @@ p .icon-social-contact:hover{
     margin: 10px;
     margin-left: 30px;
 }
+.work-right p{
+    float: none;
+    text-align: start;
+}
 .project p {
     font-size: medium;
     margin: 8px;
