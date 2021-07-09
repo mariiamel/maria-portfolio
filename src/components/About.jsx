@@ -15,6 +15,7 @@ export default function About () {
                 <p>I'm always looking to grow as a developer and continue adding frameworks and technologies to my toolbelt.</p> 
                 <p>My aptitude for digesting and implementing new technologies makes me both efficient when given a clear task, 
                     and exceptionally versatile when faced with ambiguity or road blocks.</p>
+                <p>Outside of coding, an active member of the WomenTech Network community: working on diversity initiatives and engaging the public through a blog and social media.</p>
             </div>
             </div>
         </div>
