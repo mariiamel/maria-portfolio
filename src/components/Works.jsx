@@ -16,9 +16,10 @@ export default function Works () {
                         <img src={tripTracker} alt='trip tracker project'  className='trip'/>
 
                         <p><b>MERN Full-Stack Web Application</b> allowing users to stay organized while traveling.</p>
-                        <p>• Implemented MongoDB database with Mongoose ODM and Express.js on the Back end and React on the Front end</p>
+                        <p>• Worked with a group of 4 to manage project scope, using Git collaboration to achieve a cohesive end goal</p>
                         <p>• Dynamically integrated asynchronous Axios API calls with minimization efforts to reduce latency and increase app’s speed and overall smoothness by 15%</p>
-                        <p>• Built JSON Web Tokens for users authentication</p>
+                        <p>• Enabled user login with hashed encryption, employing RESTful routing to maintain trip planning details</p>
+                        <p>• Implemented an in-depth schema in Mongo</p>
                         
                         <p><b>Tech:</b> React, Javascript, Node.js, Express.js, Mongoose, MongoDB, Bcrypt, Axios, JWT, HTML and CSS</p>
                         <p><b>Login:</b> email - user@new.com, password - usernew</p>
