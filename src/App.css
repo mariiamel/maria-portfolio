@@ -506,6 +506,9 @@ p .icon-social-contact:hover{
         float: left;
         padding-left: 8px;
     }
+    .contact-component {
+        height: 33vh;
+    }
 }
 @media(max-width: 320px){
     .header-wraper{
