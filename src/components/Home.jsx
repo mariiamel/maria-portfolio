@@ -8,7 +8,7 @@ const Home = () => {
             <div className="main-info">
                 <h1>
                     <span className='tags'>{'<'}</span>
-                    Maria Melnikova
+                    Mariia Melnikova
                     <span className='tags'>{'/>'}</span>
                 </h1>
                 
