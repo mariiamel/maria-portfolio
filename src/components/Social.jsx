@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import pdf from '../assets/maria_melnikova_resume.pdf'
+import pdf from '../assets/mariia_melnikova_resume.pdf'
 
 const Social = () => {
     return (
