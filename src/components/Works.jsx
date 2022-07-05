@@ -12,29 +12,30 @@ export default function Works () {
         <div>
             <h1 className='works'>Projects</h1>
             <div className='works-container'>
+            <LazyLoad>
+                <div className='single-work work-left'>
+                    <h1>Trip Tracker</h1>
+                    <span className='project'>
+                        <img src={tripTracker} alt='trip tracker project'  className='trip'/>
+
+                        <p><b>MERN Full-Stack Web Application</b> allowing users to stay organized while traveling.</p>
+                        <p>• Worked with a group of 4 to perform a full-stack app and manage project scope, using Git collaboration</p>
+                        <p>• Dynamically integrated asynchronous Axios API calls with minimization efforts to reduce latency and increase app’s speed and overall smoothness by 15%</p>
+                        <p>• Enabled user login with hashed encryption, employing RESTful routing to maintain trip planning details</p>
+                        <p>• Implemented an in-depth schema in Mongo</p>
+                        
+                        <p><b>Tech:</b> React, Javascript, Node.js, Express.js, Mongoose, MongoDB, Bcrypt, Axios, JWT, HTML and CSS</p>
+                        <p><b>Login:</b> email - user@new.com, password - usernew</p>
+
+                        <a href='https://triptracker.netlify.app/' target="_blank" rel='noreferrer noopener' className='btn-left'>Demo</a>
+                        <a href="https://github.com/mariiamel/project3_client" target="_blank" rel='noreferrer noopener' className='btn-left'>
+                            <FontAwesomeIcon className="icon-social" icon={faGithub} />
+                        </a>
+                    </span>
+                </div>
+            </LazyLoad>
+
                 <LazyLoad>
-
-                    <div className='single-work work-left'>
-                        <h1>Trip Tracker</h1>
-                        <span className='project'>
-                            <img src={tripTracker} alt='trip tracker project'  className='trip'/>
-
-                            <p><b>MERN Full-Stack Web Application</b> allowing users to stay organized while traveling.</p>
-                            <p>• Worked with a group of 4 to perform a full-stack app and manage project scope, using Git collaboration</p>
-                            <p>• Dynamically integrated asynchronous Axios API calls with minimization efforts to reduce latency and increase app’s speed and overall smoothness by 15%</p>
-                            <p>• Enabled user login with hashed encryption, employing RESTful routing to maintain trip planning details</p>
-                            <p>• Implemented an in-depth schema in Mongo</p>
-                            
-                            <p><b>Tech:</b> React, Javascript, Node.js, Express.js, Mongoose, MongoDB, Bcrypt, Axios, JWT, HTML and CSS</p>
-                            <p><b>Login:</b> email - user@new.com, password - usernew</p>
-
-                            <a href='https://triptracker.netlify.app/' target="_blank" rel='noreferrer noopener' className='btn-left'>Demo</a>
-                            <a href="https://github.com/mariiamel/project3_client" target="_blank" rel='noreferrer noopener' className='btn-left'>
-                                <FontAwesomeIcon className="icon-social" icon={faGithub} />
-                            </a>
-                        </span>
-                    </div>
-
                     <div className='single-work work-right'>
                         <h1>CoffeeMe</h1>
                         <span className='project'>
@@ -53,7 +54,9 @@ export default function Works () {
                             </a>
                         </span>
                     </div>
+                </LazyLoad>
 
+                <LazyLoad>
                     <div className='single-work work-left'>
                         <h1>Guess Where</h1>
                         <span className='project'>
@@ -71,7 +74,6 @@ export default function Works () {
                             </a>
                         </span>
                     </div>
-                    
                 </LazyLoad>
             </div>
         </div>
