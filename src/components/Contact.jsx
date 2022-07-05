@@ -12,7 +12,7 @@ export default function Contact () {
                     <div><a href="https://github.com/mariiamel" target="_blank" rel='noreferrer noopener'><FontAwesomeIcon className="icon-social-contact" icon={faGithub} /></a></div>
                     <div><a href="mailto: mariiamelnikova96@gmail.com"><FontAwesomeIcon className="icon-social-contact" icon={faEnvelope} /></a></div>
                 </div>
-                    <p><a href={pdf} target="_blank" className="cv icon-social-contact" rel='noreferrer noopener'>Resume</a></p>
+                <p><a href={pdf} target="_blank" className="cv icon-social-contact" rel='noreferrer noopener'>Resume</a></p>
         </div>
     )
 }
